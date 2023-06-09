@@ -12,7 +12,7 @@ cd esinfo
 make build
 ```
 
-Or download the binary [here](link) for your OS
+Or download the latest binary [here](https://github.com/tehbooom/esinfo/releases) for your OS
 
 ## Options
 
