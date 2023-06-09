@@ -1,10 +1,8 @@
 name: Build
 
 on:
-  workflow_run:
-    workflows: [Releases]
-    types:
-      - completed
+  release:
+    types: [published]
 
 jobs:
   releases-matrix:
@@ -28,3 +26,4 @@ jobs:
         goarch: ${{ matrix.goarch }}
         goversion: 1.19
         extra_files: LICENSE README.md
+        release_name: 
