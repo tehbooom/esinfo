@@ -2,6 +2,8 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/tehbooom/project_name)](https://goreportcard.com/report/github.com/tehbooom/esinfo)
 
+![example branch parameter](https://github.com/tehbooom/esinfo/actions/workflows/build.yml/badge.svg?branch=main)
+
 When running large elasticsearch clusters it can be difficult to know what indexes you have in the cluster without manually searching through index management or using dev tools and scrolling. `esinfo` queries elasticsearch for all indexes in the cluster and outputs them in a nice format (csv, json, yaml).
 
 ## Installation
