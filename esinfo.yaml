@@ -1,0 +1,7 @@
+endpoint: "https://es-1:9200"
+username: "elastic"
+password: "supersecretpassword"
+cacert: "/path/to/ca.crt"
+unsafe: false
+format: "json"
+
