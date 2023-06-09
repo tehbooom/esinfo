@@ -1,6 +1,10 @@
-on: 
-  release:
-    types: [created]
+Name: Build
+
+on:
+  workflow_run:
+    workflows: [Releases]
+    types:
+      - completed
 
 jobs:
   releases-matrix:
